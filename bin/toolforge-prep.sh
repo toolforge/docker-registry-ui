@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 SINGLE_REGISTRY="true"
 REGISTRY_SECURED="false"
-REGISTRY_URL="https://docker-registry.tools.wmflabs.org"
+REGISTRY_URL="https://docker-registry.svc.toolforge.org"
 REGISTRY_TITLE="Toolforge Docker Registry"
 
 BIN_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
